@@ -1,0 +1,79 @@
+{
+  "project": {
+    "identity": {
+      "name": "Example Design Project",
+      "goal": "Build and validate an interactive prototype that addresses the target user problem.",
+      "current_phase": "Prototype Validation",
+      "current_step_id": "step_03",
+      "success_definition": "A working prototype with evidence-backed design decisions and a validated core interaction.",
+      "last_updated": "2026-09-29"
+    },
+    "roadmap": [
+      {
+        "id": "step_03",
+        "title": "Validate core prototype",
+        "purpose": "Determine whether the current prototype produces usable evidence.",
+        "status": "CURRENT",
+        "dependencies": ["stable implementation setup"],
+        "completion_criteria": ["repeatable results", "observable task-relevant differences"],
+        "evidence_required": ["experiment results"]
+      },
+      {
+        "id": "step_04",
+        "title": "Interpret task-relevant evidence",
+        "purpose": "Transform raw outputs into interpretable evidence.",
+        "status": "PLANNED",
+        "dependencies": ["step_03"],
+        "completion_criteria": ["interpretation criteria defined"],
+        "evidence_required": ["analysis notes"]
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea_01",
+        "name": "Live intelligent assistance",
+        "description": "Use live project data to provide assistance during the task.",
+        "status": "PARKED",
+        "relevance": "HIGH",
+        "readiness": "LOW",
+        "status_confidence": "HIGH",
+        "explicitness": "EXPLICIT_USER_DECISION",
+        "reason": "Required live evaluation is not yet available.",
+        "reason_type": "DEPENDENCY",
+        "revisit_trigger": "Required live evaluation becomes available.",
+        "related_steps": ["step_04"],
+        "first_seen": "2026-09-29",
+        "last_seen": "2026-09-29",
+        "recurrence_count": 1,
+        "history": []
+      }
+    ],
+    "decisions": [],
+    "parking_lot": [
+      {
+        "idea_id": "idea_01",
+        "parked_reason": "High relevance but low execution readiness.",
+        "dependency_gap": ["interpretation step", "live evaluation"],
+        "revisit_trigger": "Core live dependency is resolved.",
+        "parked_at": "2026-09-29"
+      }
+    ],
+    "trajectory": [],
+    "plan_signals": [],
+    "replan_state": {
+      "level": "QUIET",
+      "reasons": [],
+      "last_reviewed": "2026-09-29",
+      "recommended_review_point": "end of current milestone"
+    },
+    "milestones": [],
+    "convergence": {
+      "mode": "PORTFOLIO",
+      "compression_level": "L0_FULL_TRACE",
+      "selected_events": [],
+      "excluded_events": [],
+      "core_reasoning_chain": [],
+      "unresolved_claims": []
+    }
+  }
+}
